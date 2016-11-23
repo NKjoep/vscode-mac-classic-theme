@@ -1,0 +1,31 @@
+{
+    "name": "mac-classic-theme",
+    "displayName": "Mac Classic VS Code Theme",
+    "description": "A port of the Mac Classic Theme",
+    "version": "0.0.1",
+    "publisher": "nkjoep",
+    "author": {
+        "name": "Andrea D.",
+        "url": "http://stealthefish.com/"
+    },
+    "engines": {
+        "vscode": "^1.4.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mac Classic",
+                "uiTheme": "vs",
+                "path": "./themes/Mac%20Classic.tmTheme"
+            }
+        ]
+    },
+    "homepage": "https://github.com/NKjoep/vscode-mac-classic-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NKjoep/vscode-mac-classic-theme.git"
+    }
+}
